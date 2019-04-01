@@ -17,10 +17,11 @@
         replaceAllSelect2();
     });
 
-    // for all elements
-    $(document).click(function(event){
-        replaceAllSelect2();
-    });
+// Removed due to bug https://github.com/sf-cola/select_to_select2/issues/7
+//     // for all elements
+//     $(document).click(function(event){
+//         replaceAllSelect2();
+//     });
 
     // for all elements
     $(document).change(function(event){
