@@ -1,10 +1,10 @@
 require 'redmine'
 
 Redmine::Plugin.register :select_to_select2 do
-  name 'Select To Select2 Plugin'
+  name 'Select To Select2 Plugin (Backbone OSS Fork)'
   author 'Shuhei FURUYA'
   description 'Replace Select Tag to Select2'
-  version '0.1.0'
+  version '0.2.0'
   url 'https://github.com/sf-cola/select_to_select2'
   author_url 'https://github.com/sf-cola'
 end
