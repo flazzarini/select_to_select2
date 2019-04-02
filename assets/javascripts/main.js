@@ -3,8 +3,15 @@
  */
 
 (function($){
-    // For Page Load
+  // After ajax call replace select
+  $(window).ajaxComplete(function() {
     replaceAllSelect2();
+  });
+
+  // For final load of the page replace select
+  $(window).load(function() {
+    replaceAllSelect2();
+  });
 }(jQuery));
 
 function replaceAllSelect2(){
