@@ -18,8 +18,6 @@ function replaceAllSelect2(){
   var elements = document.getElementsByTagName("select");
 
   for (i = 0; i < elements.length; i++) {
-    console.log("Element: ", elements[i]);
-
     // For not woroking 「width:resolve」
     if(elements[i].id == 'year'
       || elements[i].id == 'month'
